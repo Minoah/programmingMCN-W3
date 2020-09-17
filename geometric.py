@@ -33,6 +33,5 @@ def approxEntropy(N, p):
         sum += prob(i, p) * infoMeasure(i, p)
     return float(sum)
 #help(approxEntropy)
-print(sumProb(20, 0.8))
 
 
